@@ -1,7 +1,7 @@
 <?php
 
 // *nix スタイル (大文字の 'S' に注意)
-
+require_once('Smarty.class.php');
 $smarty = new Smarty();
 $smarty->template_dir = '/home/vagrant/smartyinstall/templates/';
 $smarty->compile_dir  = '/home/vagrant/smartyinstall/templates_c/';
