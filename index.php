@@ -3,10 +3,10 @@
 // *nix スタイル (大文字の 'S' に注意)
 require_once('/app/smarty-3.1.30/libs/Smarty.class.php');
 $smarty = new Smarty();
-$smarty->template_dir = '/home/vagrant/smartyinstall/templates/';
-$smarty->compile_dir  = '/home/vagrant/smartyinstall/templates_c/';
-$smarty->config_dir   = '/home/vagrant/smartyinstall/configs/';
-$smarty->cache_dir    = '/home/vagrant/smartyinstall/cache/';
+$smarty->template_dir = '/app/smarty-3.1.30/libs/templates/';
+$smarty->compile_dir  = '/app/smarty-3.1.30/libs/templates_c/';
+$smarty->config_dir   = '/app/smarty-3.1.30/libs/configs/';
+$smarty->cache_dir    = '/app/smarty-3.1.30/libs/cache/';
 $smarty->assign('name', 'Ned');
 
 
