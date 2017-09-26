@@ -12,9 +12,9 @@ $smarty->assign('name', 'Ned');
 
 
 $db_host = 'us-cdbr-iron-east-05.cleardb.net';
-$db_name = 'board_db';
+$db_name = 'heroku_015a4ed63db551f';
 $db_user = 'b98d927e0014c5r';
-$db_pass = 'heroku_015a4ed63db551f';
+$db_pass = '27dfe0a1';
 
 //データべースへ接続する
 $link = mysqli_connect( $db_host, $db_user, $db_pass, $db_name );
