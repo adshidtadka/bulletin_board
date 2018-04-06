@@ -1,13 +1,12 @@
 {* Smarty *}
 
-
 <html>
 <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <title>インターン課題:掲示板</title>
+    <title>即席掲示板</title>
 </head>
 <body>
-  <h1>インターン課題:掲示板</h1>
+  <h1>即席掲示板</h1>
   <form method="post" action="">
     名前<input type="text" name="name" value="" />
     コメント<textarea name="comment" rows="4" cols="20"></textarea>

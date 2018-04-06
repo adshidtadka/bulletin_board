@@ -9,8 +9,6 @@ $smarty->config_dir   = '/app/smarty-3.1.30/libs/configs/';
 $smarty->cache_dir    = '/app/smarty-3.1.30/libs/cache/';
 $smarty->assign('name', 'Ned');
 
-
-
 $db_host = 'us-cdbr-iron-east-05.cleardb.net';
 $db_name = 'heroku_fbd74da8430402e';
 $db_user = 'b90677fff39630';
@@ -67,6 +65,4 @@ $smarty->assign('data', $data);
 $smarty->assign('key', $key);
 $smarty->assign('val', $val);
 $smarty->display('index.tpl');
-
-
 ?>
